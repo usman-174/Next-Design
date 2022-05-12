@@ -8,9 +8,7 @@ const TestimonialSection = () => {
   
   return (
       <div className='bg-white py-10 px-4 mx-auto'>
-        <h1 className='text-center  text-2xl md:text-4xl font-bold'style={{fontFamily:"Poppins"}}> Depoimentos de quem já 
-          <br />
-        passou por aqui</h1>
+        <h1 className='text-center  text-2xl md:text-4xl font-bold'style={{fontFamily:"Poppins"}}> Testimonials</h1>
         
         <Carousel  showThumbs={false} stopOnHover={true} 
         useKeyboardArrows={true} swipeable={true} centerMode={true} showStatus={false }
@@ -20,8 +18,7 @@ const TestimonialSection = () => {
               return (
                   <li
                       style={{ ...indicatorStyles, background: '#7bc1a9' }}
-                      // aria-label={`Selected: ${label} ${index + 1}`}
-                      // title={`Selected: ${label} ${index + 1}`}
+                      
                   />
               );
           }

@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React, { useState } from 'react'
 
 const Navbar = () => {
@@ -5,13 +6,14 @@ const Navbar = () => {
   return (
     <nav className="bg-back shadow-lg ">
 			<div className="max-w-7xl  px-4">
-				<div className="flex justify-between ">
+				<div className="flex justify-between items-center">
 					<div className="flex">
 						<div>
 							{/* <!-- Website Logo --> */}
-							<a href="#" className="flex items-center py-4 px-2">
+							<a href="/" className="flex items-center py-4 px-2">
 								{/* <img src="logo.png" alt="Logo" className="h-8 w-8 mr-2"/> */}
-								<span className="font-semibold text-gray-500 text-lg">BeautyoSaloon.</span>
+								{/* <span className="font-semibold text-gray-500 text-lg">BeautyoSaloon.</span> */}
+								<Image src="/logo.webp" width={100} height={100} />
 							</a>
 						</div>
 				

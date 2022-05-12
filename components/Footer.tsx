@@ -8,9 +8,9 @@ const Footer = () => {
         <h1 className='text-3xl text-[#000]' style={{fontFamily:"Poppins",fontStyle:"normal",
         fontWeight:"800"}}>BeautySaloon</h1>
         <br />
-        <small className='text-back my-2'>©2021 Beautysalon.</small>
+        <small className='text-back my-2'>Copyright The Heritage Club 2022</small>
         <br />
-        <small className='text-back my-2'>Todos os direitos reservados.</small>
+        <small className='text-back my-2'>Theme Corporate Landing Page by ThemeThread</small>
 
     </div>
     <div className='p-5 my-14 mt-0 md:mt-10 md:my-4 mx-auto w-[70%] md:w-[25%]  md:mx-0 '
